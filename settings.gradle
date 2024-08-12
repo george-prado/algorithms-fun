@@ -1,0 +1,6 @@
+rootProject.name = 'algorithms'
+include 'src:main:bubbleSort'
+findProject(':src:main:bubbleSort')?.name = 'bubbleSort'
+include 'src:main:mergeSort'
+findProject(':src:main:mergeSort')?.name = 'mergeSort'
+
